@@ -1,8 +1,11 @@
 /* ---header-------------------------- */
 header {
+  position: relative;
+  z-index: 100;
   min-width: 100%;
   height: 150px;
   border-bottom: 1px solid var(--main-color);
+  background-color: #fff;
 }
 /* ---메뉴바-------------------------- */
 header nav.member {
@@ -89,5 +92,11 @@ nav.gnb > ul > li > ul > li > a:hover {
 }
 
 nav.gnb > ul > li > ul {
+  display: none;
+}
+
+nav.gnb .menu_member,
+nav.gnb .menu_sns,
+nav.gnb h6 {
   display: none;
 }
