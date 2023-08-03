@@ -26,6 +26,8 @@ $(function () {
       var winh = $(window).height();
       var h = $('.quick').innerHeight();
       $('.quick').css({ top: scry + winh * 0.5 - h * 0.5 });
+      if (scry >= 300) $('.quick').addClass('active');
+      else $('.quick').removeClass('active');
       isQuickStart = true;
     }); //rafId2
   }; //fnQuickMenu
@@ -39,6 +41,13 @@ $(function () {
     .resize(function () {
       fnQucikMenu();
     });
+
+  $('.quick .top').click(function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  });
 
   fnHeaderMotion();
 

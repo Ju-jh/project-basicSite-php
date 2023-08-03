@@ -52,5 +52,5 @@
       <i class="fa-solid fa-map-location-dot"></i>
       <span>오시는 길</span>
     </a>
-    <button><i class="fa-solid fa-arrow-turn-up"></i>top</button>
+    <button class="top"><i class="fa-solid fa-arrow-turn-up"></i>top</button>
   </nav>
