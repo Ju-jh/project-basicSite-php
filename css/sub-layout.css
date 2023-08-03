@@ -13,7 +13,6 @@ section.sub_visual figure {
   height: 100%;
   /* 
   1. inherit 줘도 상관없다. 
-  & 
   2. block이니까 width 안줘도 된다. 
   */
 }
@@ -51,7 +50,9 @@ section.sub_visual figure figcaption p {
   line-height: 150%;
 }
 
-/* sub_visual motion */
+/* 
+  1. sub_visual motion 
+  */
 
 section.sub_visual figure {
   display: none;
@@ -62,7 +63,9 @@ section.sub_visual figure img {
   transform: scale(1.2);
   transition: transform 10s linear, filter 2s linear;
   filter: brightness(0.5) blur(3px);
-  /* transition: transform 여러개를 다른 속도로 하겠다는 뜻 */
+  /* 
+  1. transition: transform 여러개를 다른 속도로 하겠다는 뜻 
+  */
 }
 
 section.sub_visual figure.active img {
@@ -109,7 +112,9 @@ div.sub_center {
   justify-content: space-between;
   width: 1200px;
   margin: 30px auto;
-  /* border: 1px solid red; */
+  /* 
+  border: 1px solid red; 
+  */
 }
 
 aside.sidebar {
@@ -160,7 +165,9 @@ main.sub_content {
   position: relative;
   width: 940px;
   min-height: 400px;
-  /* background-color: red; */
+  /* 
+  background-color: red; 
+  */
 }
 
 main.sub_content ul.breadcrumb {
