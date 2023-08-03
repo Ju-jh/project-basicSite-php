@@ -1,6 +1,9 @@
 $(function () {
   var rafId;
   var isMotionStart = true;
+  var rafId2;
+  var isQuickStart = true;
+
   var fnHeaderMotion = function () {
     if (!isMotionStart) return;
     isMotionStart = false;
@@ -14,6 +17,28 @@ $(function () {
       isMotionStart = true;
     });
   }; //fnHeaderMotion
+
+  var fnQucikMenu = function () {
+    if (!isQuickStart) return;
+    isQuickStart = false;
+    rafId2 = requestAnimationFrame(function () {
+      var scry = $(window).scrollTop();
+      var winh = $(window).height();
+      var h = $('.quick').innerHeight();
+      $('.quick').css({ top: scry + winh * 0.5 - h * 0.5 });
+      isQuickStart = true;
+    }); //rafId2
+  }; //fnQuickMenu
+
+  fnQucikMenu();
+
+  $(window)
+    .scroll(function () {
+      fnQucikMenu();
+    })
+    .resize(function () {
+      fnQucikMenu();
+    });
 
   fnHeaderMotion();
 

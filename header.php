@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/sub-layout.css">
+  <link rel="stylesheet" href="./css/home.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script> 
   <script src="https://kit.fontawesome.com/40d55bb55c.js" crossorigin="anonymous"></script>
   <title>Document</title>
@@ -36,3 +37,20 @@
     </nav>
   </div>
   </header>
+
+  <nav class="quick">
+    <b>quick <br> menu</b>
+    <a href="./biz-intro.php">
+      <i class="fa-solid fa-building"></i>
+      <span>사업분야</span>
+    </a>
+    <a href="./online.php">
+      <i class="fa-solid fa-envelope-open-text"></i>
+      <span>온라인 문의</span>
+    </a>
+    <a href="./location.php">
+      <i class="fa-solid fa-map-location-dot"></i>
+      <span>오시는 길</span>
+    </a>
+    <button><i class="fa-solid fa-arrow-turn-up"></i>top</button>
+  </nav>
