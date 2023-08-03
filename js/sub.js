@@ -33,4 +33,12 @@ $(function () {
 
   $(`.snb .menu${menu}`).show();
   $(`.snb .menu${menu}_${page}`).addClass('active');
+  var category = $(`.snb .menu${menu} > a`).text();
+  var category2 = $(`.snb .menu${menu} > ul > li .menu${menu}_${page}`).text();
+  $('.breadcrumb li.category').text(category);
+  $('.breadcrumb li.category2').text(category2);
+  $(`.sub_visual${menu}`).css({ display: 'flex' });
+  setTimeout(function () {
+    $(`.sub_visual${menu}`).addClass('active');
+  }, 1);
 }); //ready
