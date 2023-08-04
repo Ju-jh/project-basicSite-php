@@ -8,7 +8,6 @@ $(function () {
     if (!isMotionStart) return;
     isMotionStart = false;
     rafId = requestAnimationFrame(function () {
-      var scry = $(window).scrollTop();
       if (scry >= 40) {
         $('header').addClass('active');
       } else {
@@ -22,8 +21,6 @@ $(function () {
     if (!isQuickStart) return;
     isQuickStart = false;
     rafId2 = requestAnimationFrame(function () {
-      var scry = $(window).scrollTop();
-      var winh = $(window).height();
       var h = $('.quick').innerHeight();
       $('.quick').css({ top: scry + winh * 0.5 - h * 0.5 });
       if (scry >= 300) $('.quick').addClass('active');

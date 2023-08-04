@@ -163,6 +163,7 @@ aside.sidebar {
 
 main.sub_content {
   position: relative;
+  overflow: hidden;
   width: 940px;
   min-height: 400px;
   /* 
@@ -187,5 +188,22 @@ main.sub_content ul.breadcrumb li:not(:last-child)::after {
 }
 
 main.sub_content ul.breadcrumb li:last-child {
+  color: var(--point-color);
+}
+
+.sub_title {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: 900;
+  border-bottom: 1px solid #ccc;
+}
+
+.emphasis {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.point {
   color: var(--point-color);
 }

@@ -12,11 +12,16 @@
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/sub-layout.css">
   <link rel="stylesheet" href="./css/home.css">
-  <script src="http://code.jquery.com/jquery-latest.js"></script> 
+  <link rel="stylesheet" href="./css/greet.css">
+  <link rel="stylesheet" href="./css/preloader.css">
+  <link rel="stylesheet" href="./css/location.css">
   <script src="https://kit.fontawesome.com/40d55bb55c.js" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script> 
+  <script src="./js/common.js"></script>
   <title>Document</title>
 </head>
 <body>
+<?php include "preloader.php"?>
   <header>
   <nav class="member">
     <div class="center">
