@@ -207,3 +207,11 @@ main.sub_content ul.breadcrumb li:last-child {
 .point {
   color: var(--point-color);
 }
+
+.sub_summary {
+  margin-bottom: 40px;
+}
+
+.sub_summary p {
+  margin-bottom: 10px;
+}

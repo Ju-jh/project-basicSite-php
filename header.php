@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="./css/greet.css">
   <link rel="stylesheet" href="./css/preloader.css">
   <link rel="stylesheet" href="./css/location.css">
+  <link rel="stylesheet" href="./css/biz-intro.css">
+  <link rel="stylesheet" href="./css/biz-area.css">
+  <link rel="stylesheet" href="./css/gallery.css">
   <script src="https://kit.fontawesome.com/40d55bb55c.js" crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script> 
   <script src="./js/common.js"></script>
