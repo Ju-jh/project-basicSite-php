@@ -18,6 +18,9 @@
   <link rel="stylesheet" href="./css/biz-intro.css">
   <link rel="stylesheet" href="./css/biz-area.css">
   <link rel="stylesheet" href="./css/gallery.css">
+  <link rel="stylesheet" href="./css/online.css">
+  <link rel="stylesheet" href="./css/faq.css">
+  <link rel="stylesheet" href="./css/board.css">
   <script src="https://kit.fontawesome.com/40d55bb55c.js" crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script> 
   <script src="./js/common.js"></script>

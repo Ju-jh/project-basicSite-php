@@ -117,7 +117,7 @@ nav.quick {
   position: absolute;
   right: 30px;
   width: 80px;
-  z-index: 10px;
+  z-index: 10;
   transition: all 0.3s;
   opacity: 0;
   pointer-events: none;
