@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,38 +16,39 @@
   <link rel="stylesheet" href="./css/greet.css">
   <link rel="stylesheet" href="./css/preloader.css">
   <link rel="stylesheet" href="./css/location.css">
-  <link rel="stylesheet" href="./css/biz-intro.css">
+  <link rel="stylesheet" href="./css/biz-info.css">
   <link rel="stylesheet" href="./css/biz-area.css">
   <link rel="stylesheet" href="./css/gallery.css">
   <link rel="stylesheet" href="./css/online.css">
   <link rel="stylesheet" href="./css/faq.css">
   <link rel="stylesheet" href="./css/board.css">
   <script src="https://kit.fontawesome.com/40d55bb55c.js" crossorigin="anonymous"></script>
-  <script src="http://code.jquery.com/jquery-latest.js"></script> 
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="./js/common.js"></script>
   <title>Document</title>
 </head>
+
 <body>
-<?php include "preloader.php"?>
+  <?php include "preloader.php" ?>
   <header>
-  <nav class="member">
-    <div class="center">
-      <a href="#">로그인</a>
-      <a href="#">회원가입</a>
-      <a href="#">SNS</a>
-    </div>
-  </nav>
-  <div class="bottom">
-    <h1>
-      <a href="./index.php">
-        <img src="./img/icons/logo.png" alt="">
-      </a>
-    </h1>
-    <script src="./js/gnb.js"></script>
-    <nav class="gnb">
-      <?php include'menu.php'?>
+    <nav class="member">
+      <div class="center">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+        <a href="#">SNS</a>
+      </div>
     </nav>
-  </div>
+    <div class="bottom">
+      <h1>
+        <a href="./index.php">
+          <img src="./img/icons/logo.png" alt="">
+        </a>
+      </h1>
+      <script src="./js/gnb.js"></script>
+      <nav class="gnb">
+        <?php include 'menu.php' ?>
+      </nav>
+    </div>
   </header>
 
   <nav class="quick">

@@ -8,10 +8,10 @@
           </ul>
         </li>
         <li class="menu2">
-          <a href="./biz-intro.php">business</a>
+          <a href="./biz-info.php">business</a>
           <h6>사업소개</h6>
           <ul>
-            <li><a class="menu2_1" href="./biz-intro.php">사업소개</a></li>
+            <li><a class="menu2_1" href="./biz-info.php">사업소개</a></li>
             <li><a class="menu2_2" href="./biz-area.php">사업분야</a></li>
           </ul>
         </li>
